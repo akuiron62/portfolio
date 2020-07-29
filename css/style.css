@@ -1,0 +1,111 @@
+body {
+  background-image: url(../img/background.jpg);
+}
+
+h2 {
+  color: #FF1E5C;
+}
+
+.header {
+  margin: 100px auto 300px auto;
+  width: 700px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
+.header_logo {
+  padding-bottom: 50px;
+}
+
+.about {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  border-style: solid 3px #FF1E5C;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.about-para {
+  font-size: 20px;
+  text-align: center;
+}
+
+.about-portrait {
+  justify-content: center;
+  width: 200px;
+  border-radius: 20%;
+}
+
+.services {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  /* margin-bottom: 50px; */
+}
+
+.services_subtitle {
+  font-size: 1.2rem;
+}
+
+.services-title {
+  font-size: 50px;
+  /* margin-top: 250px; */
+  text-align: center;
+}
+
+.services_border h3 {
+  border: 2px solid #FF1E5C;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 1px;
+}
+
+.card img {
+  height: 300px;
+  background-color: black;
+}
+
+.card-deck {
+  padding-bottom: 50px;
+}
+
+.tag {
+  background-color: #FF1E5C;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.realisations {
+  width: 700px;
+  margin-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #FF1E5C !important;
+  border: 1px solid #FF1E5C;
+}
+
+footer {
+  color: #FF1E5C;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  background-color: #111;
+}
+

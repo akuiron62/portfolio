@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="WeWebStyle">
+      <meta name="keywords" content="HTML, CSS, JavaScript, WeWebStyle, WeWeb">
+      <meta name="title" content="Akuiron.com">
+      <meta name="description" content="Akuiron.com est un site de developpement d'application web/mobile">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <title>Akuiron.com</title>
+  </head>
+  <body>
+    <!--En tete-->
+    <div class="header">
+      <img class="header_logo" src="img/logo.png" alt="">
+      <p>Je developpe pour vous des applications web / web mobile</p>
+    </div>
+
+    <!--A propos de moi-->
+    <div id="about" class="about">
+      <h2 class="title">A propos de moi</h2>
+      <div class="about-para">
+        <p>J'ai effectué le plus gros de ma carrière professionnelle dans la fonction publique territoriale en tant que cadre administratif.</p>
+        <p>Passionné d'informatique depuis ma plus tendre enfance j'ai décidé d'en faire mon métier.</p>
+        <p>J'ai fait parti de la P6 de mars à octobre 2020 developpeur web à la POPSCHOOL.</p>
+      </div>
+      <div >
+        <img class="about-portrait" src="img/portrait.jpg" alt="">
+      </div>
+    </div>
+
+    <!--services-->
+    <div>
+      <h2 class="title">Mes Services</h2>
+    </div>
+      <!--progress-->
+      <div class="services">
+        <div class="services_border">
+          <h3 class="services_subtitle">GESTION DE PROJETS WEB</h3>
+          <p>Site vitrine, corporate, évènementiel, e-commerce, intranet, application mobile.</p>
+        </div>
+        <div class="services_border">
+          <h3 class="services_subtitle">INTÉGRATION WEB</h3>
+          <p>Des intégrations (X)HTML / CSS respectueuses des standards du Web.</p>
+        </div>
+        <div class="services_border">
+          <h3 class="services_subtitle">DÉVELOPPEMENTS SPÉCIFIQUE</h3>
+          <p>Des outils adaptés à votre coeur de métier, applications & solutions personnalisées.</p>
+        </div>
+        <div class="services_border">
+          <h3 class="services_subtitle">RÉFÉRENCEMENT NATUREL</h3>
+          <p>Affichage sémantique des informations, des pages propres pour un référencement optimal.</p>
+        </div>
+        <div class="services_border">        
+          <h3 class="services_subtitle">DYNAMISME DES PAGES</h3>
+          <p>Des animations de contenu non intrusives pour embellir votre projet.</p>
+        </div>
+        <div class="services_border">
+          <h3 class="services_subtitle">INTERFACE D'ADMINISTRATION</h3>
+          <p>Outils spécifiques au bon fonctionnement de votre entreprise.</p>
+        </div>
+        <div class="services_border">
+          <h3 class="services_subtitle">RESPONSIVE DESIGN</h3>
+          <p>Compatible tous supports, tablette & application mobile.</p>
+        </div>
+      </div>
+
+    <!--realisations-->
+    <div id="realisations" class="realisations">
+      <h2 class="title">Realisations</h2>
+          
+    <!--realisations cards-->
+    <div class="container">
+      <div class="card-deck">
+        <!--  waka  -->
+        <div class="card">
+          <img src="img/waka.png" class="card-img-top" alt="waka">
+          <div class="card-body">
+            <a href="http://137.74.112.140/wordpress/" target="_blank"><h5 class="card-title">WAKA</h5></a>
+          </div>
+          <div class="card-footer">
+            <span class="tag">HTML</span> <span class="tag">CSS</span>
+          </div>
+        </div>
+        
+        <!--  CHUCK GENERATOR  -->
+        <div class="card">
+          <img src="img/Chuck.png" class="card-img-top" alt="Chuck">
+          <div class="card-body">
+            <a href="https://akuiron.fr/Chuck_norris/" target="_blank"><h5 class="card-title">TP ChuckGenerator</h5></a>
+          </div>
+          <div class="card-footer">
+            <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JS</span>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+    <!--contacts-->
+    <div id="contacts" class="contacts">
+      <h2 class="title">Contacts</h2>
+    <!--form-->
+    <form>
+      <div class="form-group">
+        <label for="exampleInputname">Nom</label>
+        <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp" placeholder="Entrez votre nom">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputfirstname">Prénom</label>
+        <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp" placeholder="Entrez votre Prénom">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Adresse mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre adresse mail">
+        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Votre demande</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Entrez votre demande"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+  </body>
+
+  <!--Footer-->
+  <footer>    
+      <p>copyright 2020 - Akuiron.com</p>
+  </footer>
+</html>
